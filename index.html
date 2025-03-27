@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>SIBIA - Soluciones Inteligentes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>SIBIA</h1>
+    <p>Automatización Inteligente para Empresas</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Bienvenido</h2>
+      <p>Inteligencia Artificial, Automatización Industrial, SCADA, PLC, Tablerismo, y más.</p>
+    </section>
+  </main>
+
+  <div id="chat-icon" onclick="toggleChat()">
+    💬 ¿Necesitás ayuda?
+  </div>
+
+  <div id="chat-box" style="display:none;">
+    <div id="chat-log">
+      <div class="bot-msg">🤖 ¡Hola! Soy SIBIA, tu asistente. ¿En qué puedo ayudarte?</div>
+    </div>
+    <input type="text" id="chat-input" placeholder="Tu mensaje...">
+    <button onclick="sendChat()">Enviar</button>
+  </div>
+
+  <script src="js/chat.js"></script>
+</body>
+</html>
